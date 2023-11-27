@@ -1,0 +1,12 @@
+rules:
+  - labelling:
+    when:
+      - '"index.html" in files'
+    add:
+      - 'html-changes'
+
+  - labelling:
+    when:
+      - '"estilo.css" in files'
+    add:
+      - 'css-changes'
